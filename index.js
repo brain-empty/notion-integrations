@@ -1,7 +1,5 @@
 // general setup
     if (process.env.NODE_ENV !== 'production'){require('dotenv').config()}       // env initialization
-    const express = require("express")
-    const app = express()
 
 // notion api
     var { Client } = require("@notionhq/client")

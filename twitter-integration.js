@@ -7,7 +7,6 @@ const databaseId = process.env.NOTION_DATABASE_ID
 const  { TwitterApi } = require('twitter-api-v2')
 const appOnlyClient = new TwitterApi(process.env.TWITTER_BEARER_TOKEN);
 
-
 async function twitterIntegration () {
     const lastNotionEntry = await findLastTweetNotion()
     const tweets = await findTweetsSinceLastNotionEntry(lastNotionEntry)

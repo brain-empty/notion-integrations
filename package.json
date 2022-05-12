@@ -1,5 +1,5 @@
 {
-  "name": notion-integrations",
+  "name": "notion-integrations",
   "version": "1.0.0",
   "description": "an app to deal with all the automations i wanna come up with",
   "main": "index.js",
@@ -8,11 +8,18 @@
     "start": "node server.js",
     "devStart": "nodemon server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brain-empty/notion-integrations.git"
+  },
+  "author": "brain-empty",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brain-empty/notion-integrations/issues"
+  },
+  "homepage": "https://github.com/brain-empty/notion-integrations#readme",
   "dependencies": {
     "@notionhq/client": "^1.0.4",
-    "express": "^4.18.1",
     "twitter-api-v2": "^1.12.0"
   },
   "devDependencies": {
